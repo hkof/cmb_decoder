@@ -19,6 +19,6 @@ CmbFile cmb = CmbParser.fromFile(new File("samples/modelA.cmb"));
 List<Layer> layers = cmb.getLayers();
 Layer layer33 =  layers.get(33);
 for(int i = 0; i < layer33.getSize(); i++) {
-	System.out.println(first_layer.getCommand(i));
+	System.out.println(layer33.getCommand(i));
 }
 ```
